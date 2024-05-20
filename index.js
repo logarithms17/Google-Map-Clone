@@ -34,5 +34,7 @@ const setupMap = (center) => {
         'top-left'
     );
 
+    map.addControl(new mapboxgl.FullscreenControl({container: document.querySelector('body')})); // adds full screen button
+
 }
 
